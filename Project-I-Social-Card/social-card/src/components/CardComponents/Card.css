@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+
+
+.socialCard{
+max-width:500px;
+background-color:red;
+}
+
+
