@@ -1,0 +1,9 @@
+
+.Footer{
+    width:50rem;
+    margin-left:6rem;
+}
+.fa-comment,.fa-sync,.fa-heart,.fa-envelope{
+    font-size:1.5rem;
+    margin:1rem 6rem 1rem 0;
+}

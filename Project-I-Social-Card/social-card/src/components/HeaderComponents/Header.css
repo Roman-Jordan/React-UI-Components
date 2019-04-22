@@ -1,1 +1,46 @@
 /* All styles for your header Components live here */
+.HeaderContainer{
+    position: relative;
+}
+
+.HeaderTitle{
+    display:flex;
+    
+}
+
+.ImageThumbnail,.contentWrapper{
+    padding:0 .2rem;
+}
+.contentWrapper{
+    max-width:50rem;
+}
+
+.contentTitle{
+    display:flex;
+    align-content: center;
+    align-items:center ;
+    padding:.2rem;
+    margin-bottom:0;
+}
+
+.ImageThumbnail img{
+    padding:.3rem 0;
+    width:5.6rem;
+}
+.contentTitle h1{
+    font-size:1.39rem;
+
+   
+}
+.contentTitle p{
+    font-size:1.25rem;
+    padding:0;
+    color:grey;
+    margin-left:.5rem;
+    
+}
+
+.HeaderContent p{
+    font-size:1.5rem;
+    margin:-.5rem .25rem;
+}
