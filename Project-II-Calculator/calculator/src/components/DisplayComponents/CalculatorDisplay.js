@@ -7,7 +7,10 @@ const btnObj = [{text : 9},{text : 8},{text : 7},{text : 6},{text : 5},{text : 4
 const btnOpp = [{text:'clear', name:'clear'},{text:'\xF7', name:'divide'},{text:'\xD7', name:'multiply'},{text:'\u2212', name:'sub'},{text:'+', name:'add'},{text:'=', name:'eql'}];
 
 
-const CalculatorDisplay = () =>{
+const CalculatorDisplay = (i) =>{
+
+
+
     return(
         <div className="CalculatorDisplay">
             <div className="CalculatorView">
