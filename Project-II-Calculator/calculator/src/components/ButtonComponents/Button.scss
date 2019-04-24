@@ -1,0 +1,43 @@
+.NumberButton,.ActionButton{
+    padding:2.3rem;
+    font-size:4rem;
+    text-align:center;
+    border:solid 1px grey;
+    p{
+        margin:0;
+        padding:0;
+    }
+}
+
+.NumberButton{
+    background:#fff;
+    color:black;
+}
+
+.ActionButton{
+    Background:#a0001e;
+}
+.CalculatorButtons{
+    display:flex;
+    
+    .buttons{
+        width:75%;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        .NumberButton{
+            width:33.33%;
+            &:last-child{
+                width:100%;
+            }
+        }
+        .clear{
+            width:100%;
+            background:#fff;
+            color:black;
+        }
+    }
+    .operators{
+        width:25%;
+    }
+}
